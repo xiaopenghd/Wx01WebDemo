@@ -1,0 +1,12 @@
+<view class="view1" bindtap="view1Click" id="view1" data-title="新闻标题" data-id="100">
+   view1
+    <view class="view2" bindtap="view2Click" id="view2">
+    view2
+        <view class="view3" bindchtap="view3Click" id="view3">
+    view3
+
+        </view>
+
+    </view>
+
+</view>

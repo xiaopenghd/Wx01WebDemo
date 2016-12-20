@@ -1,0 +1,11 @@
+<view class="content">
+<input placeholder="这是一个可以自动聚焦的input" autoauto-focus></input>
+<input placeholder="这个只有在按钮点击的时候才聚焦" focus="{{focus}}"></input>
+<view>
+<button bindtap="bindButtonTap">使得输入框获取焦点</button>
+</view>
+<input maxlength="10" placeholder="最大输入长度10"></input>
+<view>你输入的是：{{inputValue}}</view>
+<input bindinput="bindKeyInput" placeholder="输入同步到view中"></input>
+<input bindinput="bindReplaceInput" placeholder="连续的两个1变成2"></input>
+</view>

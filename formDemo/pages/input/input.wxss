@@ -1,0 +1,9 @@
+.content
+{
+     display: flex;
+     flex-direction: column;
+}
+.p-style
+{
+  font-weight: true;
+}

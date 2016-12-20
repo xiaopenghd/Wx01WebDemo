@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+<progress percent="20" show-info active/>
+<progress percent="40" stroke-width="12" active/>
+<progress percent="60" color="pink" active/>
+<progress percent="80" active />
+
+<block wx:for="{{iconType}}">
+  <icon type="{{item}}" size="45" color="red" />
+</block>
+</view>

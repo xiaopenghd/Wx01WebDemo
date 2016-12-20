@@ -1,0 +1,15 @@
+{
+  "pages":[
+     "pages/label/label",  
+    "pages/input/input",    
+    "pages/checkBox/checkBox",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

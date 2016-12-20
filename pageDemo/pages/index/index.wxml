@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view class="container">
+ <navigator url="../logs/logs?id=8" redirect>
+  <view >
+    <text   class="user-motto">文章一</text>
+  </view>
+</navigator>
+
+   <view >
+    <text  bindtap="itemClick"  class="user-motto">文章二</text>
+  </view>
+
+   <view >
+    <text class="user-motto">文章三</text>
+  </view>
+
+   <view >
+    <text class="user-motto">文章四</text>
+  </view>
+
+   <view >
+    <text class="user-motto">文章五</text>
+  </view>
+</view>

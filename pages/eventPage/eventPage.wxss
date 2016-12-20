@@ -1,0 +1,16 @@
+.view1{
+    width: 100%;
+    height: 100px;
+    background: orangered
+}
+.view2{
+    width: 80%;
+    height: 80px;
+    background: yellow
+}
+
+.view3{
+    width: 60%;
+    height: 60px;
+    background: olive
+}

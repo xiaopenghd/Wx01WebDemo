@@ -1,0 +1,38 @@
+{
+  "pages":[
+     "pages/index/index",
+    "pages/ExpressPage/express",
+    "pages/eventPage/eventPage",
+    "pages/firstPage/first",
+   
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ddd",
+    "navigationBarTitleText": "快递查询",
+    "navigationBarTextStyle":"black",
+    "backgroundColor": "#ddd",
+    "enablePullDownRefresh": true
+  },
+
+  "tabBar": {
+    "borderStyle": "black",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    },
+    {
+      "pagePath": "pages/logs/logs",
+      "text": "日志"
+    }
+    ]
+  },
+  "networkTimeout": {
+    "request": 20000,
+    "connectSocket": 20000,
+    "uploadFile": 20000,
+    "downloadFile": 20000
+  }
+
+}

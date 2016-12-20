@@ -1,0 +1,43 @@
+.contoner{
+  width: 100%;
+  height: 100%;
+  background-color: palegreen;
+  display: flex;
+ flex-direction:row;
+ /*flex-wrap:wrap-reverse;*/
+ /*flex-flow: row wrap;*/
+ justify-content:space-between;
+ align-items: flex-start;
+ margin-left: 100rpx;
+ margin-top: 100rpx;
+ position: absolute;
+}
+.item{
+  width: 200rpx;
+  height: 100rpx;
+  background-color: yellow;
+  border: 1px solid #fff;
+  order: 3;
+}
+.i3{
+  display: flex;
+  align-items: flex-end;
+  flex-basis: 200px;
+  order: 1;
+  align-self: flex-end;
+
+}
+
+.item2{
+  width: 200rpx;
+  height: 100rpx;
+  background-color: yellow;
+  border: 1px solid #fff;
+  order: 3;
+ 
+ position: absolute;
+ left: 50rpx;
+ top: 50rpx;
+  
+
+}

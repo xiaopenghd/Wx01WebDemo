@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+  <scroll-view scroll-y="true" style="height: 200px;" scroll-top="{{scrollNum}}" bindscrolltoupper="scrollToUp" upper-threshold="0" lower-threshold="0" bindscrolltolower="scrollToLower" bindscroll="scroll"
+  scroll-into-view="{{intoview}}">
+    <view id="green" class="scroll-view-item bc_green"></view>
+    <view id="red"  class="scroll-view-item bc_red"></view>
+    <view id="yellow" class="scroll-view-item bc_yellow"></view>
+    <view id="blue" class="scroll-view-item bc_blue"></view>
+  </scroll-view>
+<view id="blue" class="btn" bindtap="btnclick"></view>
+</view>

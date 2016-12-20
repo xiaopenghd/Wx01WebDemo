@@ -1,0 +1,9 @@
+<view>
+<view >
+  <input  bindinput="bindInputUserName" placeholder="用户名" />
+</view>
+<view >
+  <input  bindinput="bindInputUserPwd" placeholder="密码" />
+</view>
+<button bindtap="loginClick">登录</button>
+</view>

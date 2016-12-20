@@ -1,0 +1,5 @@
+hello word!
+<button type="default"  hover-class="other-button-hover"> default </button>
+<button type="primary" bindtap="btnClik" > {{btn1}} </button>
+
+<view wx:if="{{isA}}">{{test}}</view>
