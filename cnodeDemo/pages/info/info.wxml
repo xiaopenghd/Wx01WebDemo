@@ -1,0 +1,19 @@
+<view style="padding:5px">
+    <view style="color:#09bb07;font-size:25px;border-bottom:2px solid #888888;padding-bottom:5px">
+        <text>{{info.title}}</text>
+    </view>
+    <view style="margin-top:5px;margin-bottom:5px">
+        <text>{{info.content}}</text>
+    </view>
+    <view style="color:#888888;font-size:15px;display:flex;justify-content:space-between;border-bottom:2px solid #888888;padding-bottom:5px">
+        <text>{{info.reply_count}}次浏览</text><text>{{info.visit_count}}次回复</text>
+     </view>
+     <view ><text>回复列表</text></view>
+     <view wx:for="{{info.replies}}">
+        <view style="border-top:2px solid #09bb07;padding:5px;margin-top:5px" >
+        
+            <text>{{item.content}}</text>
+        </view>
+     </view>
+     
+</view>

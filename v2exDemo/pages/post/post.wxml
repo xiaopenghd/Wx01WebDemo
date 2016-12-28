@@ -1,0 +1,13 @@
+<view>
+   <view>
+    <view><text>标题</text></view>
+    <view><text>用户名</text></view>
+    <view><text>这里是文章描述，不是所有的吉普都叫jeep</text></view>
+    <view><text>共50条回复</text><text>节点</text></view>
+    </view>
+     
+     <view>
+       <text>用户名</text>
+       <text>内容</text>
+     </view>
+</view>

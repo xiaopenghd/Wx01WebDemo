@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view style="display:flex;flex-direction:column" >
+   <view style="border-bottom:5px solid #888888;padding:5px;">
+      <view><image mode="scaleToFill" src="../images/tx.jpeg" style="width:24px;height:24px"></image><text style="font-size:14px">用户名</text></view>
+      <view style="margin-top:10px;margin-bottom:10px;font-size:17px"><text>这里是测试内容</text></view>
+      <view style="display:flex;justify-content:space-between;font-size:13px"><text>共0条回复</text><text>分类</text></view>
+   </view>
+     
+      <view style="border-bottom:5px solid #888888;padding:5px;">
+            <view><image mode="scaleToFill" src="../images/tx.jpeg" style="width:24px;height:24px"></image><text style="font-size:14px">用户名</text></view>
+            <view style="margin-top:10px;margin-bottom:10px;font-size:17px"><text>这里是测试内容</text></view>
+            <view style="display:flex;justify-content:space-between;font-size:13px"><text>共0条回复             </text><text>分类</text></view>
+   </view>
+
+ 
+</view>

@@ -1,0 +1,51 @@
+{
+  "pages":[
+     "pages/index/index",
+    "pages/info/info",
+    "pages/logs/logs",
+    "pages/offer/offer",
+    "pages/question/question",
+    "pages/share/share",
+     "pages/good/good",
+     "pages/objectPage/objectPage"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#353535",
+    "navigationBarTitleText": "CNODE社区",
+    "navigationBarTextStyle":"white"
+  },"tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "全部",
+      "iconPath": "../pages/images/index.png",
+      "selectedIconPath": "../pages/images/index-hl.png"
+    },
+    {
+      "pagePath": "pages/good/good",
+      "text": "精华",
+      "iconPath": "../pages/images/index.png",
+      "selectedIconPath": "../pages/images/index-hl.png"
+      
+    },
+      {
+      "pagePath": "pages/share/share",
+      "text": "分享",
+      "iconPath": "../pages/images/share.png",
+      "selectedIconPath": "../pages/images/share-hl.png"
+    },
+      {
+      "pagePath": "pages/question/question",
+      "text": "问答",
+      "iconPath": "../pages/images/question.png",
+      "selectedIconPath": "../pages/images/question-hl.png"
+    },
+     {
+      "pagePath": "pages/offer/offer",
+      "text": "招聘",
+      "iconPath": "../pages/images/offer.png",
+      "selectedIconPath": "../pages/images/offer-hl.png"
+    }
+    ]
+  }
+}
